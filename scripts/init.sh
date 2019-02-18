@@ -2,6 +2,7 @@
 
 template=`git remote get-url origin`
 git remote add template $template
+git remote remove origin
 
 title=`cat TITLE`
 
