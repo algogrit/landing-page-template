@@ -8,3 +8,9 @@
 [build]
   command = "npm run export"
   publish = "out"
+
+# [[redirects]]
+#   from = "https://template.netlify.com"
+#   to = "https://template.com"
+#   status = 200
+#   force = true
