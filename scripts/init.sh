@@ -5,7 +5,6 @@ git remote add template $template
 
 title=`cat TITLE`
 
-gsed -i s/"Generic Landing Page"/"$title"/g package.json
 gsed -i s/template/"$title"/g pages/_app.js
 
 # cname=`cat CNAME`

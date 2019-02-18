@@ -1,7 +1,7 @@
 {
   "name": "landing-page",
   "version": "1.0.0",
-  "description": "Generic landing pages",
+  "description": "landing page",
   "main": "index.js",
   "dependencies": {
     "@zeit/next-sass": "^1.0.1",
